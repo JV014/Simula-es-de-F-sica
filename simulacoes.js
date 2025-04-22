@@ -13,7 +13,6 @@ const simulacoes = [
 Para pequenas oscilações (pequenos ângulos), o movimento do pêndulo simples é aproximadamente harmônico simples, com um período que depende apenas do comprimento do fio e da aceleração da gravidade, sendo independente da massa e da amplitude (para pequenas amplitudes).",
     link: "https://www.glowscript.org/#/user/joaov1385/folder/MyPrograms/program/P%C3%AAnduloSimples"
   },
-
   {
     titulo: "Lançamento Oblíquo",
     categoria: "Cinemática",
@@ -39,9 +38,7 @@ Dica: Observe o gráfico!",
     categoria: "MHS",
     descricao: "Oscilações acopladas ocorrem quando dois ou mais sistemas oscilatórios interagem, trocando energia entre si. Essa interação leva a um comportamento mais complexo do que oscilações isoladas, resultando em novos modos de oscilação e frequências características do sistema acoplado como um todo.",
     link: "https://www.glowscript.org/#/user/joaov1385/folder/MyPrograms/program/Oscila%C3%A7%C3%B5es-acopladas"
-  }
-
-
+  },
   {
     titulo: "Detector de Eclipses e Estações do ano",
     categoria: "Astronomia",
@@ -66,12 +63,12 @@ Dica: Observe o gráfico!",
     descricao: "O movimento planetário descreve o deslocamento dos planetas e outros corpos celestes (como asteroides e cometas) ao redor de uma estrela central, como o Sol em nosso Sistema Solar. As leis que governam esse movimento foram fundamentalmente estabelecidas por Johannes Kepler e Isaac Newton.",
     link: "https://www.glowscript.org/#/user/joaov1385/folder/MyPrograms/program/Movimentoplanet%C3%A1rio5"
   },
-{
+  {
     titulo: "Sistema Massa-Mola (MHS Amortecido)",
     categoria: "MHS",
     descricao: "O Movimento Harmônico Simples Amortecido (MHSA) descreve um sistema oscilatório onde uma força de amortecimento, geralmente proporcional à velocidade, dissipa energia mecânica ao longo do tempo, fazendo com que a amplitude das oscilações diminua gradualmente até cessar.",
     link: "https://www.glowscript.org/#/user/joaov1385/folder/MyPrograms/program/MHSAMORTECIDO"
-  }
+  },
 ];
 
 function filtrarSimulacoes() {
