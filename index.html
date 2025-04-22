@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simulações de Física</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>Simulações de Física</h1>
+
+  <div id="filtro">
+    <label for="categoria">Filtrar por tema:</label>
+    <select id="categoria" onchange="filtrarSimulacoes()">
+      <option value="todas">Todas</option>
+      <option value="mhs">Movimento Harmônico Simples</option>
+      <option value="colisao">Colisões</option>
+      <option value="lancamento">Lançamentos</option>
+    </select>
+  </div>
+
+  <div id="lista-simulacoes">
+    <!-- Os cartões das simulações vão aparecer aqui -->
+  </div>
+
+  <script src="simulacoes.js"></script>
+</body>
+</html>
