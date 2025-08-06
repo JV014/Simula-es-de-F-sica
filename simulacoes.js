@@ -12,6 +12,12 @@ const simulacoes = [
     link: "https://www.glowscript.org/#/user/joaov1385/folder/MyPrograms/program/P%C3%AAnduloSimples"
   },
   {
+    titulo: "Oscilação Amortecida",
+    categoria: "mhs",
+    descricao: "Oscilações amortecidas são oscilações mecânicas onde a amplitude diminui com o tempo devido a forças dissipativas como atrito ou resistência do ar. O movimento oscilatório é gradualmente atenuado até que o sistema atinge o repouso.",
+    link: "https://www.glowscript.org/#/user/joaov1385/folder/MyPrograms/program/SimuladorMHS-ADAPTADO"
+  },
+  {
     titulo: "Lançamento Oblíquo",
     categoria: "cinemática",
     descricao: "O lançamento oblíquo combina movimento horizontal constante e vertical uniformemente variado sob a gravidade, resultando numa trajetória parabólica. A velocidade inicial tem componentes horizontal (alcance) e vertical (altura máxima e tempo de voo). O ângulo de lançamento influencia significativamente a trajetória, com 45 graus geralmente otimizando o alcance. Essencial em esportes e tecnologia, sua análise matemática permite previsões precisas.",
@@ -87,3 +93,4 @@ function filtrarSimulacoes() {
 }
 
 filtrarSimulacoes(); // Inicializa com todas as simulações
+
