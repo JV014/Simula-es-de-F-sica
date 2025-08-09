@@ -10,7 +10,8 @@ const simulacoes = [
     categoria: "mhs",
     descricao: "O pêndulo simples consiste em uma massa (pontual) suspensa por um fio ideal (inextensível e sem massa) que oscila sob a ação da gravidade. Deslocado de sua posição de equilíbrio, a força gravitacional age como força restauradora, tendendo a trazê-lo de volta. Para pequenas oscilações (pequenos ângulos), o movimento do pêndulo simples é aproximadamente harmônico simples, com um período que depende apenas do comprimento do fio e da aceleração da gravidade, sendo independente da massa e da amplitude (para pequenas amplitudes). É incluso neste simulador controles deslizantes que permite considerar forças dissipativas, definindo-se o amortecimento. As scilações amortecidas são oscilações mecânicas onde a amplitude diminui com o tempo devido a forças dissipativas como atrito ou resistência do ar.",
     link: "https://www.glowscript.org/#/user/joaov1385/folder/MyPrograms/program/P%C3%AAndulo-LVA"
-  };
+  }
+  ];
 
 function filtrarSimulacoes() {
   const categoria = document.getElementById("categoria").value;
@@ -32,6 +33,7 @@ function filtrarSimulacoes() {
 }
 
 filtrarSimulacoes(); // Inicializa com todas as simulações
+
 
 
 
